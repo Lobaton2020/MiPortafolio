@@ -240,16 +240,16 @@
                                 <div class="col-md-4 col-sm-6  col-xs-12">
                                     <div class="blog-sec">
                                         <div class="blog-img">
-                                            <a href="https://alobaton.000webhostapp.com/" target="_blank">
+                                            <a href="https://tomanota.000webhostapp.com/" target="_blank">
                                                 <img style="border-radius: 1%;" src="img/sitio_LLAN.png" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="blog-info">
-                                            <h2>Proyecto LLANT(Lobaton, Links, Archivos, Notas, Tareas).</h2>
+                                            <h2>TomaNotas.</h2>
                                             <P>Proyecto Individual</P>
                                             <p>Tecnologias usadas: HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - JAVASCRIPT</p>
-                                            <a href="https://alobaton.000webhostapp.com/" target="_blank" class=" btn btn-info">Ver sitio →</a>
-                                            <a href="https://github.com/Lobaton2020/Proyecto_LLAN/" target="_blank" class=" btn btn-success " style="margin-left:25%">Ver codigo →</a>
+                                            <a href="https://tomanota.000webhostapp.com/" target="_blank" class=" btn btn-info">Ver sitio →</a>
+                                            <a href="https://github.com/Lobaton2020/TomaNotas" target="_blank" class=" btn btn-success " style="margin-left:25%">Ver codigo →</a>
                                             <br><br>
                                         </div>
                                     </div>
@@ -276,7 +276,48 @@
                                     </div>
                                 </div>
 
+                                <span class="put_br"></span>
+
+                                <div class="col-md-4 col-sm-6  col-xs-12">
+                                    <div class="blog-sec">
+                                        <div class="blog-img">
+                                            <a href="https://sociallob.000webhostapp.com/tablerovirtual/" target="_blank">
+                                                <img style="border-radius: 1%;" src="img/tablerovirtual.png" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="blog-info">
+                                            <h2>Tablero Virual.</h2>
+                                            <p>Proyecto Individual</p>
+                                            <p>Tecnologias usadas: HTML5 - CSS3 - PHP - MYSQL - AJAX - BOOTSTRAP 4 - #JAVASCRIPT</p>
+                                            <a href="https://sociallob.000webhostapp.com/tablerovirtual/" target="_blank" class=" btn btn-info ">Ver sitio →</a>
+                                            <a href="https://github.com/Lobaton2020/TableroVirtual" target="_blank" class=" btn btn-success " style="margin-left:25%">Ver codigo →</a>
+                                            <br><br>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                        <span class="put_br"></span>
+
+                        <div class="col-md-4 col-sm-6  col-xs-12">
+                            <div class="blog-sec">
+                                <div class="blog-img">
+                                    <a href="https://sociallob.000webhostapp.com/" target="_blank">
+                                        <img style="border-radius: 1%;" src="img/redsocial.png" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="blog-info">
+                                    <h2>Red social- SocialNet</h2>
+                                    <p>Proyecto Individual</p>
+                                    <p>Tecnologias usadas: HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT</p>
+
+                                    <a href="https://sociallob.000webhostapp.com/" target="_blank" class=" btn btn-info ">Ver sitio →</a>
+                                    <a href="https://github.com/Lobaton2020/Redsocial_SocialNet" target="_blank" class=" btn btn-success " style="margin-left:25%">Ver codigo →</a>
+                                    <br><br>
+                                </div>
                             </div>
+                        </div>
+                        </div>
                         </div>
 
                     </section>
@@ -315,18 +356,18 @@
                                 <div class="col-md-2"></div>
                                 <div class="col-md-8 col-sm-6 col-xs-12">
                                     <div class="contact-form">
-                                    <?php if(isset($_GET["message"])){ 
-                                      switch($_GET["message"]){
-                                        case "ok":
-                                        echo '<div class="alert alert-success">Tu mensage ha sido enviado. Gracias!</div>';
-                                        break;
-                                        case "bad":
-                                        echo '<div class="alert alert-danger">Los sentimos, el mensaje no se pudo enviar.</div>';
-                                        break;
-                                        default;
-                                        echo '<div class="alert alert-danger">Los sentimos, hubo un error.</div>';
-                                    }
-                                     } ?>
+                                    <?php if (isset($_GET["message"])) {
+    switch ($_GET["message"]) {
+        case "ok":
+            echo '<div class="alert alert-success">Tu mensage ha sido enviado. Gracias!</div>';
+            break;
+        case "bad":
+            echo '<div class="alert alert-danger">Los sentimos, el mensaje no se pudo enviar.</div>';
+            break;
+        default;
+            echo '<div class="alert alert-danger">Los sentimos, hubo un error.</div>';
+    }
+}?>
                                         <form action="https://alobaton.000webhostapp.com/formHeroku/envioDatos.php" method="post" role="form" class="contactForm">
                                             <div class="col-md-6 padding-right-zero">
                                                 <div class="form-group">
@@ -361,7 +402,7 @@
                         </div>
                 </div>
             </div>
-            </section> 
+            </section>
             <!---->
             <!---->
 
