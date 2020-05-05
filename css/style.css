@@ -121,7 +121,7 @@ HEADER
 ***********************************/
 
 .header {
-    background: url('../img/fondo.jpg') no-repeat fixed;
+    background: url('https://cdn.pixabay.com/photo/2016/02/19/11/19/computer-1209641_960_720.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 650px;
     position: relative;
