@@ -56,7 +56,7 @@
                                     <li class="active"><a href="#main-header">Inicio</a></li>
                                     <li class=""><a href="#about">Sobre mi</a></li>
                                     <li class=""><a href="#habilidades">Habilidades</a></li>
-                                    <li class=""><a href="#portafolio">Portafolio</a></li>
+                                    <li class=""><a href="#portafolio">Proyectos</a></li>
                                     <li class=""><a href="#contact">Contacto</a></li>
                                 </ul>
                             </div>
@@ -70,7 +70,7 @@
                         <div class="row">
                             <div class="banner-info mt-sm-4 text-center wow fadeIn delay-05s">
                                 <h1 class="bg-info bnr-title mt-sm-4">
-                                    <h1 class="" style="margin-top: 5%;"><span>Desarrollo Web</span> </h1><span></span></h1>
+                                    <h1 class="" style="margin-top: 5%;"><span>Desarrollador de Software</span> </h1><span></span></h1>
                                 <h3 class=" bnr-sub-title"><span style="margin:auto 2% auto 2%;"> "Permíteme como desarrollador apoyar tu trabajo"</span></h3><br/>
                                 <p class="bnr-para">-- Desarrollador Front-end y Back-end --</p>
 
@@ -87,11 +87,7 @@
                 </div>
             </div>
         </div>
-
         <!--/ HEADER-->
-        <!---->
-
-        <!---->
         <!--Seccion-->
         <section id="about" class="section-padding wow fadeInUp delay-05s">
             <div class="container">
@@ -100,14 +96,16 @@
                         <h2 class=" service-title mt-3 pad-bt15">Sobre mi</h2>
                         <hr class="bottom-line">
                         <p class="sub-title pad-bt15 text-justify">
-                            Mi nombre es <em>Andres Lobaton</em>, Soy de colombia, Me apasiona la programacion y la informatica, tengo la curiosidad de saber como funcionan las computadoras y lo que pueden hacer, Le hecho muchas ganas de aprender nuevas
-                            tecnologias que me motivan y me impulsan a ser cada vez mejor, tratando de mejorar todo mi conocimiento.
-                            <br><br> Actualmente me encuentro estudiando en el SENA (Servicio Nacional de Apredizaje) donde estoy haciendo un Tecnologo en Analisis y Desarrollo de Sistemas de Informacion. Tambien estoy aprendiendo el lenguje de programacion
-                            JAVA adicional el framework Angular 8.
-                        </p>
+                            Mi nombre es <em>Andres Lobaton</em>, Soy de colombia, Me apasiona la programacion y la informatica, tengo la curiosidad 
+                            de saber como funcionan las computadoras y lo que pueden hacer, me gusta mucho aprender nuevas
+                            tecnologias que me motivan y me impulsan a ser cada vez mejor.
+                            <br><br> Actualmente me encuentro estudiando en el SENA (Servicio Nacional de Apredizaje) donde estoy realizando un Tecnologo
+                            en Analisis y Desarrollo de Sistemas de Informacion. Tambien estoy aprendiendo el lenguje de programacion
+                            JAVA (EE) adicional el framework Angular 8, aprendo nuevas cosas cada dia.
+                           <br><br>
+                             Soy de los que creen que "La constancia siempre vencerá la inteligencia", pienso que aportando un grano de arena todos los dias,
+                             lograremos grandes cosas. Sé que este "mundo" del desarrollo de software es muy grande y que por medio de esto podré contribuir y ayudar a los demas.</p>
                     </div>
-
-
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="service-item">
                             <h3></h3>
@@ -118,8 +116,6 @@
                 </div>
             </div>
         </section>
-        <!---->
-
 
         <br>
         <br>
@@ -129,13 +125,8 @@
         <br>
         <br>
         <br>
-
-
         <section id="habilidades">
-
-            <!---->
             <div class="container">
-
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <span class="put_br"></span>
@@ -156,7 +147,7 @@
                                         <ol>
                                             <li type="circle" class="pad-bt15 text-left">HTML</li>
                                             <li type="circle" class="pad-bt15 text-left">CSS</li>
-                                            <li type="circle" class="pad-bt15 text-left">BOOTSTRAP</li>
+                                            <li type="circle" class="pad-bt15 text-left">BOOTSTRAP4</li>
                                             <li type="circle" class="pad-bt15 text-left">JAVASCRIPT</li>
                                             <li type="circle" class="pad-bt15 text-left">AJAX</li>
 
@@ -164,7 +155,7 @@
                                         <p></p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 border col-sm-6 col-xs-12">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
                                     <div class="wrap-item text-center">
                                         <h3 class="pad-bt15 text-center">Back-end</h3>
                                         <div class="item-img">
@@ -177,11 +168,23 @@
                                                     <li type="circle">Implementacion de Modelo - Vista - Controlador (MVC).</li>
                                                 </ul>
                                             </li>
-                                            <li type="circle" class="pad-bt15 text-left">MYSQL</li>
+                                            <li type="circle" class="pad-bt15 text-left">JAVA EE
+                                                <ul>
+                                                    <li type="circle">JSP - Servlets</li>
+                                                </ul>
+                                            </li>
+                                            
+                                            <li type="circle" class="pad-bt15 text-left">MYSQL
+                                                <ul>
+                                                    <li type="circle">Vistas.</li>
+                                                    <li type="circle">Procedimientos almacenados.</li>
+                                                    <li type="circle">Triggers.</li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-4 border col-sm-6 col-xs-12">
+                                <div class="col-md-4  col-sm-6 col-xs-12">
                                     <div class="wrap-item text-center">
                                         <h3 class="pad-bt15 text-center">Otros</h3>
                                         <div class="item-img">
@@ -190,10 +193,13 @@
                                         <ul>
                                             <li type="circle" class="pad-bt15 text-left">GIT</li>
                                             <li type="circle" class="pad-bt15 text-left">GITHUB</li>
+                                            <li type="circle" class="pad-bt15 text-left">ANGULAR JS <small class="text-muted">(Nivel basico)</small></li>
+                                            <li type="circle" class="pad-bt15 text-left">REACT JS <small class="text-muted">(Nivel basico)</small></li>
+                                            <li type="circle" class="pad-bt15 text-left">LARAVEL <small class="text-muted">(Nivel basico)</small></li>
                                             <li type="circle" class="pad-bt15 text-left">
                                                 <h4>Sistemas Operativos</h4>
                                                 <ul>
-                                                    <li type="circle">Linux</li>
+                                                    <li type="circle">Linux <small class="text-muted">(Nivel basico)</small></li>
                                                     <li type="circle">Windows</li>
                                                 </ul>
                                             </li>
@@ -208,142 +214,83 @@
                     <br>
                     <!---->
                     <section id="portafolio" class="section-padding wow fadeInUp delay-05s">
-                        <div class="container">
+                        <div class="container cont">
                             <div class="row">
                                 <div class="col-md-12 text-center">
                                     <h2 class="service-title pad-bt15">Mis proyectos</h2>
-                                    <br>
-                                    <br>
+                           
                                     <hr class="bottom-line">
                                 </div>
-                                <div class="col-md-4 col-sm-6  col-xs-12">
+                                <!-- inicio -->
+                                <?php $proyectos = file_get_contents("datos.json");
+                                      $proyectos = json_decode($proyectos,false);
+                                foreach($proyectos as $proyecto): ?>
+                                <div class="col-md-4 col-sm-6  col-xs-12  ">
+                                    <div class="border">
                                     <div class="blog-sec">
+                                    <h3 style="text-align:center;margin:19px auto"><?=$proyecto->title?></h3>
                                         <div class="blog-img">
-                                            <a href="http://andreslobaton.atwebpages.com/" target="_blank">
-                                                <img style="border-radius: 1%;" src="img/sitio_1101.png" class="img-responsive">
+                                            <a href="<?=($proyecto->urlproject != NULL)?$proyecto->urlproject:""?>" target="_blank">
+                                                <img style="border-radius: 1%;" src="<?=$proyecto->urlimg?>" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="blog-info">
-                                            <h2>Galeria 1101.</h2>
-                                            <P>Proyecto Individual</P>
-                                            <p>Tecnologias usadas: HTML5 - CSS3 - BOOTSTRAP 4 - PHP - MYSQL</p>
-
-                                            <a href="http://andreslobaton.atwebpages.com/" target="_blank" class=" btn btn-info">Ver sitio →</a>
-                                            <a href="https://github.com/Lobaton2020/Sitio_Once_01" target="_blank" class=" btn btn-success " style="margin-left:25%">Ver codigo →</a>
-                                            <br><br>
+                                            <p class="p"><?=$proyecto->subtitle?></p>
+                                            <p class="p"><?=$proyecto->description?></p>
+                                            <p class="p"><b>Tecnologias usadas:</b> <?=$proyecto->technologies?></p>
+                                            <p class="p"><?=$proyecto->date?></p>
+                                        </div>
+                                    </div>
+                               
+                                      <div class="space-bottom">
+                                         <div class="m-w-100">
+                                            <?php if($proyecto->urlproject):?>
+                                                <a href="<?=$proyecto->urlproject?>" target="_blank" class="btn btn-success">Ver sitio (Online) →</a>
+                                            <?php endif ?>
+                                            <?php if($proyecto->urlcode):?>
+                                                <a href="<?=$proyecto->urlcode?>" target="_blank" class="btn btn-info m-align-right">Ver codigo →</a>
+                                            <?php endif ?>
+                                           </div>
                                         </div>
                                     </div>
                                 </div>
+                                <?php endforeach;?>
+                                <!-- fin -->
 
-                                <span class="put_br"></span>
-
-                                <div class="col-md-4 col-sm-6  col-xs-12">
-                                    <div class="blog-sec">
-                                        <div class="blog-img">
-                                            <a href="https://tomanota.000webhostapp.com/" target="_blank">
-                                                <img style="border-radius: 1%;" src="img/sitio_LLAN.png" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="blog-info">
-                                            <h2>TomaNotas.</h2>
-                                            <P>Proyecto Individual</P>
-                                            <p>Tecnologias usadas: HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - JAVASCRIPT</p>
-                                            <a href="https://tomanota.000webhostapp.com/" target="_blank" class=" btn btn-info">Ver sitio →</a>
-                                            <a href="https://github.com/Lobaton2020/TomaNotas" target="_blank" class=" btn btn-success " style="margin-left:25%">Ver codigo →</a>
-                                            <br><br>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <span class="put_br"></span>
-
-                                <div class="col-md-4 col-sm-6  col-xs-12">
-                                    <div class="blog-sec">
-                                        <div class="blog-img">
-                                            <a href="#" onclick="alert('El sistema de informacion no se encuentra en funcionamiento actualmente. Pero puedes ver el codigo!')">
-                                                <img style="border-radius: 1%;" src="img/sitio_solumovil.png" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="blog-info">
-                                            <h2>Proyecto Solumovil.</h2>
-                                            <p>Proyecto hecho en compañia con Oscar vargas, como proyecto del Tecnico en programacion de software en el SENA</p>
-                                            <p>Tecnologias usadas: HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT</p>
-
-                                            <a href="#" onclick="alert('El sistema de informacion no se encuentra en funcionamiento actualmente. Pero puedes ver el codigo!')" class=" btn btn-info disabled">Ver sitio →</a>
-                                            <a href="https://github.com/Lobaton2020/S.I_SOLUMOVIL_MVC" target="_blank" class=" btn btn-success " style="margin-left:25%">Ver codigo →</a>
-                                            <br><br>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <span class="put_br"></span>
-
-                                <div class="col-md-4 col-sm-6  col-xs-12">
-                                    <div class="blog-sec">
-                                        <div class="blog-img">
-                                            <a href="https://sociallob.000webhostapp.com/tablerovirtual/" target="_blank">
-                                                <img style="border-radius: 1%;" src="img/tablerovirtual.png" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="blog-info">
-                                            <h2>Tablero Virual.</h2>
-                                            <p>Proyecto Individual</p>
-                                            <p>Tecnologias usadas: HTML5 - CSS3 - PHP - MYSQL - AJAX - BOOTSTRAP 4 - #JAVASCRIPT</p>
-                                            <a href="https://sociallob.000webhostapp.com/tablerovirtual/" target="_blank" class=" btn btn-info ">Ver sitio →</a>
-                                            <a href="https://github.com/Lobaton2020/TableroVirtual" target="_blank" class=" btn btn-success " style="margin-left:25%">Ver codigo →</a>
-                                            <br><br>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                        <span class="put_br"></span>
-
-                        <div class="col-md-4 col-sm-6  col-xs-12">
-                            <div class="blog-sec">
-                                <div class="blog-img">
-                                    <a href="https://sociallob.000webhostapp.com/" target="_blank">
-                                        <img style="border-radius: 1%;" src="img/redsocial.png" class="img-responsive">
-                                    </a>
-                                </div>
-                                <div class="blog-info">
-                                    <h2>Red social- SocialNet</h2>
-                                    <p>Proyecto Individual</p>
-                                    <p>Tecnologias usadas: HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT</p>
-
-                                    <a href="https://sociallob.000webhostapp.com/" target="_blank" class=" btn btn-info ">Ver sitio →</a>
-                                    <a href="https://github.com/Lobaton2020/Redsocial_SocialNet" target="_blank" class=" btn btn-success " style="margin-left:25%">Ver codigo →</a>
-                                    <br><br>
-                                </div>
-                            </div>
                         </div>
                         </div>
-                        </div>
-
                     </section>
+                    </div>
+                        </div>
+
                     <!---->
                     <!---->
-                    <section id="contact" class="section-padding wow fadeInUp delay-05s">
+                    <section id="contact" style="width:100%" class="section- wow fadeInUp delay-05s">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-center white">
-                                    <h2 class="service-ttle pad-bt15">Mis datos.</h2>
+                                <br>
+    <br>
+
+                                <h2 class="service-ttle pad-bt15">Mis datos.</h2>
                                     <hr class="bottom-line white-bg">
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <div class="loction-info white">
+                                    <div class="loction-info text-light white">
                                         <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Bogotá - Colombia</p>
-                                        <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>andrespipe021028@gmail.com</p>
-                                        <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+57 3219216905</p>
+                                        <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i><span id="correo"></span></p>
+                                        <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i><span id="celular"></span></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <div class="loction-info white">
                                         <p>
                                             <a href="https://github.com/Lobaton2020/" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/github.png" alt=""></a>
+                                            <a href="https://github.com/Lobaton2020/" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; https://github.com/Lobaton2020/</a>
                                         </p>
                                         <p>
                                             <a href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/linkedin.png" alt=""></a>
+                                            <a href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; <span>https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/</span></a>
                                         </p>
                                         <p>
                                             <a href="Quiz/">.</a>
@@ -357,18 +304,18 @@
                                 <div class="col-md-8 col-sm-6 col-xs-12">
                                     <div class="contact-form">
                                     <?php if (isset($_GET["message"])) {
-    switch ($_GET["message"]) {
-        case "ok":
-            echo '<div class="alert alert-success">Tu mensage ha sido enviado. Gracias!</div>';
-            break;
-        case "bad":
-            echo '<div class="alert alert-danger">Los sentimos, el mensaje no se pudo enviar.</div>';
-            break;
-        default;
-            echo '<div class="alert alert-danger">Los sentimos, hubo un error.</div>';
-    }
-}?>
-                                        <form action="https://alobaton.000webhostapp.com/formHeroku/envioDatos.php" method="post" role="form" class="contactForm">
+                                        switch ($_GET["message"]) {
+                                            case "ok":
+                                                echo '<div class="alert alert-success">Tu mensage ha sido enviado. Gracias!</div>';
+                                                break;
+                                            case "bad":
+                                                echo '<div class="alert alert-danger">Los sentimos, el mensaje no se pudo enviar.</div>';
+                                                break;
+                                            default;
+                                                echo '<div class="alert alert-danger">Los sentimos, hubo un error.</div>';
+                                        }
+                                    }?>
+                                        <form action="https://tomanota.000webhostapp.com/formHeroku/envioDatos.php" method="post" role="form" class="contactForm">
                                             <div class="col-md-6 padding-right-zero">
                                                 <div class="form-group">
                                                     <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingresa al menos 4 caracteres" />
@@ -403,8 +350,6 @@
                 </div>
             </div>
             </section>
-            <!---->
-            <!---->
 
             <footer id="footer">
                 <div class="container">
@@ -415,8 +360,7 @@
                 </div>
 
             </footer>
-            <div>
-            </div>
+  
 
             <!---->
             <script src="js/jquery.min.js"></script>
@@ -431,26 +375,17 @@
                     if (window.innerWidth < 768) {
                         document.querySelector("#put-br").innerHTML = "<br><br><br><br><br>";
 
-
                         var num_class = document.querySelectorAll(".put_br");
                         document.getElementsByClassName("margin_1")[0].style.marginBottom = "-10%";
 
-
                         for (let i = 0; i < num_class.length; i++) {
-
                             num_class[i].innerHTML = "<br><br><br>";
-
                         }
-
-
                     } else {
                         document.querySelector("#put-br1").innerHTML = "<br><br><br>";
-
                     }
 
-
-                    var ano = new Date().getFullYear();
-                    document.querySelector("#year1").innerHTML = ano;
+                    document.querySelector("#year1").innerHTML = new Date().getFullYear();
                 }
             </script>
 </body>

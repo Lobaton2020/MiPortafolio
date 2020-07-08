@@ -2,10 +2,10 @@
 <?php
 
 error_reporting(0);
-$name =    $_POST["name"];
-$email =   $_POST["email"];
-$subject = $_POST["subject"];
-$message = $_POST["message"];
+$name =    trim($_POST["name"]);
+$email =   trim($_POST["email"]);
+$subject = trim($_POST["subject"]);
+$message = trim($_POST["message"]);
 
 if(!empty($name) && 
    !empty($email) && 
@@ -19,7 +19,6 @@ if(!empty($name) &&
         $contenido .= '	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>';
         $contenido .= '    <meta name="viewport" content="width=device-width, user-scalable=no">';
         $contenido .= '    <meta http-equiv="X-UA-Compatible" content="IE=edge"> ';
-        $contenido .= '    <!-- mas contenido del auto y  de posissionamiento -->';
         $contenido .= '	<link rel="stylesheet" href="libs/fontawesome/css/all.css">';
         $contenido .= '	<link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >';
         $contenido .= '    <link class="icon" rel=icon sizes="32x32" type="image/png" href="assets/img/logo.png">';

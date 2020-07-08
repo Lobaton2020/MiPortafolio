@@ -1,0 +1,59 @@
+[{
+        "title": "Red Social- SocialNet",
+        "subtitle": "Proyecto Individual",
+        "urlimg": "img/redsocial.png",
+        "description": "Permite el interactuar con otros usuarios como realizar posts, hacer amigos, chatear, reaccinar, hacer comentarios de forma segura etc.",
+        "technologies": "HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT",
+        "urlproject": null,
+        "urlcode": "https://github.com/Lobaton2020/Redsocial_SocialNet",
+        "date": "Mayo 2020",
+        "urlvideo": null
+    },
+    {
+        "title": "Tablero Virual",
+        "subtitle": "Proyecto Individual",
+        "urlimg": "img/tablerovirtual.png",
+        "description": "Permite que un usuario agregue texto y lo comparta con otros usuarios por medio de un codigo.",
+        "technologies": "HTML5 - CSS3 - PHP - MYSQL - AJAX - BOOTSTRAP 4 - #JAVASCRIPT",
+        "urlproject": null,
+        "urlcode": "https://github.com/Lobaton2020/TableroVirtual",
+        "date": "Marzo 2020",
+        "urlvideo": null
+    },
+    {
+        "title": "Galeria 1101",
+        "subtitle": "Proyecto Individual",
+        "urlimg": "img/sitio_1101.png",
+        "description": "Creado para recordar mi grado de 11, imagenes que se congelan en el tiempo, y compartirlo con mis compañeros.",
+        "technologies": "HTML5 - CSS3 - BOOTSTRAP 4 - PHP - MYSQL",
+        "urlproject": "http://andreslobaton.atwebpages.com/",
+        "urlcode": "https://github.com/Lobaton2020/Sitio_Once_01",
+        "date": "Octubre 2019",
+        "urlvideo": null
+
+    },
+    {
+        "title": "TomaNotas",
+        "subtitle": "Proyecto Individual",
+        "urlimg": "img/sitio_LLAN.png",
+        "description": "Creado para organizar mis actividades y decidí crear mi propio sitio para eso.",
+        "technologies": "HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - JAVASCRIPT",
+        "urlproject": "https://tomanota.000webhostapp.com/",
+        "urlcode": "https://github.com/Lobaton2020/TomaNotas",
+        "date": "desde Julio 2019",
+        "urlvideo": null
+
+    },
+    {
+        "title": "Proyecto Solumovil",
+        "subtitle": "Proyecto tecnico SENA (grupal)",
+        "urlimg": "img/sitio_solumovil.png",
+        "description": "Soluciona la necesidad de inventario y facturacion de un local comercial de servicio tecnico en la localidad de Engativá.",
+        "technologies": "HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT",
+        "urlproject": null,
+        "urlcode": "https://github.com/Lobaton2020/S.I_SOLUMOVIL_MVC",
+        "date": "A comienzos de 2019",
+        "urlvideo": null
+
+    }
+]
