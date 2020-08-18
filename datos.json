@@ -1,4 +1,15 @@
 [{
+        "title": "Transporte - Publico",
+        "subtitle": "Proyecto Individual",
+        "urlimg": "img/trans-public.png",
+        "description": "Permite gestionar buses, rutas,conductores, asignar una ruta a un conductor, crear contratos.",
+        "technologies": "HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT . Separacion del Back-end y Front-end. Consumiendo un API",
+        "urlproject": null,
+        "urlcode": "https://github.com/Lobaton2020/Transporte_Publico",
+        "date": "Julio 2020",
+        "urlvideo": null
+    },
+    {
         "title": "Red Social- SocialNet",
         "subtitle": "Proyecto Individual",
         "urlimg": "img/redsocial.png",
@@ -54,6 +65,5 @@
         "urlcode": "https://github.com/Lobaton2020/S.I_SOLUMOVIL_MVC",
         "date": "A comienzos de 2019",
         "urlvideo": null
-
     }
 ]

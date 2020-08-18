@@ -45,10 +45,10 @@
                         <div class="container">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
                                 <a class="navbar-brand" href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" target="_blank">Andres Lobaton<span class="logo-dec"></span></a>
                             </div>
                             <div class="collapse navbar-collapse" id="myNavbar">
@@ -70,8 +70,9 @@
                         <div class="row">
                             <div class="banner-info mt-sm-4 text-center wow fadeIn delay-05s">
                                 <h1 class="bg-info bnr-title mt-sm-4">
-                                    <h1 class="" style="margin-top: 5%;"><span>Desarrollador de Software</span> </h1><span></span></h1>
-                                <h3 class=" bnr-sub-title"><span style="margin:auto 2% auto 2%;"> "Permíteme como desarrollador apoyar tu trabajo"</span></h3><br/>
+                                    <h1 class="" style="margin-top: 5%;"><span>Desarrollador de Software</span> </h1><span></span>
+                                </h1>
+                                <h3 class=" bnr-sub-title"><span style="margin:auto 2% auto 2%;"> "Permíteme como desarrollador apoyar tu trabajo"</span></h3><br />
                                 <p class="bnr-para">-- Desarrollador Front-end y Back-end --</p>
 
                                 <div class="brn-btn">
@@ -96,15 +97,15 @@
                         <h2 class=" service-title mt-3 pad-bt15">Sobre mi</h2>
                         <hr class="bottom-line">
                         <p class="sub-title pad-bt15 text-justify">
-                            Mi nombre es <em>Andres Lobaton</em>, Soy de colombia, Me apasiona la programacion y la informatica, tengo la curiosidad 
+                            Mi nombre es <em>Andres Lobaton</em>, Soy de colombia, Me apasiona la programacion y la informatica, tengo la curiosidad
                             de saber como funcionan las computadoras y lo que pueden hacer, me gusta mucho aprender nuevas
                             tecnologias que me motivan y me impulsan a ser cada vez mejor.
                             <br><br> Actualmente me encuentro estudiando en el SENA (Servicio Nacional de Apredizaje) donde estoy realizando un Tecnologo
                             en Analisis y Desarrollo de Sistemas de Informacion. Tambien estoy aprendiendo el lenguje de programacion
                             JAVA (EE) adicional el framework Angular 8, aprendo nuevas cosas cada dia.
-                           <br><br>
-                             Soy de los que creen que "La constancia siempre vencerá la inteligencia", pienso que aportando un grano de arena todos los dias,
-                             lograremos grandes cosas. Sé que este "mundo" del desarrollo de software es muy grande y que por medio de esto podré contribuir y ayudar a los demas.</p>
+                            <br><br>
+                            Soy de los que creen que "La constancia siempre vencerá la inteligencia", pienso que aportando un grano de arena todos los dias,
+                            lograremos grandes cosas. Sé que este "mundo" del desarrollo de software es muy grande y que por medio de esto podré contribuir y ayudar a los demas.</p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="service-item">
@@ -173,7 +174,14 @@
                                                     <li type="circle">JSP - Servlets</li>
                                                 </ul>
                                             </li>
-                                            
+                                            <li type="circle" class="pad-bt15 text-left">PYTHON
+                                                <ul>
+                                                    <li type="circle">Diccionarios</li>
+                                                    <li type="circle">Listas</li>
+                                                    <li type="circle">Dataframes etc.</li>
+                                                </ul>
+                                            </li>
+
                                             <li type="circle" class="pad-bt15 text-left">MYSQL
                                                 <ul>
                                                     <li type="circle">Vistas.</li>
@@ -218,176 +226,176 @@
                             <div class="row">
                                 <div class="col-md-12 text-center">
                                     <h2 class="service-title pad-bt15">Mis proyectos</h2>
-                           
+
                                     <hr class="bottom-line">
                                 </div>
                                 <!-- inicio -->
                                 <?php $proyectos = file_get_contents("datos.json");
-                                      $proyectos = json_decode($proyectos,false);
-                                foreach($proyectos as $proyecto): ?>
-                                <div class="col-md-4 col-sm-6  col-xs-12  ">
-                                    <div class="border">
-                                    <div class="blog-sec">
-                                    <h3 style="text-align:center;margin:19px auto"><?=$proyecto->title?></h3>
-                                        <div class="blog-img">
-                                            <a href="<?=($proyecto->urlproject != NULL)?$proyecto->urlproject:""?>" target="_blank">
-                                                <img style="border-radius: 1%;" src="<?=$proyecto->urlimg?>" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="blog-info">
-                                            <p class="p"><?=$proyecto->subtitle?></p>
-                                            <p class="p"><?=$proyecto->description?></p>
-                                            <p class="p"><b>Tecnologias usadas:</b> <?=$proyecto->technologies?></p>
-                                            <p class="p"><?=$proyecto->date?></p>
+                                $proyectos = json_decode($proyectos, false);
+                                foreach ($proyectos as $proyecto) : ?>
+                                    <div class="col-md-4 col-sm-6  col-xs-12  ">
+                                        <div class="border">
+                                            <div class="blog-sec">
+                                                <h3 style="text-align:center;margin:19px auto"><?= $proyecto->title ?></h3>
+                                                <div class="blog-img">
+                                                    <a href="<?= ($proyecto->urlproject != NULL) ? $proyecto->urlproject : "" ?>" target="_blank">
+                                                        <img style="border-radius: 1%;" src="<?= $proyecto->urlimg ?>" class="img-responsive">
+                                                    </a>
+                                                </div>
+                                                <div class="blog-info">
+                                                    <p class="p"><?= $proyecto->subtitle ?></p>
+                                                    <p class="p"><?= $proyecto->description ?></p>
+                                                    <p class="p"><b>Tecnologias usadas:</b> <?= $proyecto->technologies ?></p>
+                                                    <p class="p"><?= $proyecto->date ?></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="space-bottom">
+                                                <div class="m-w-100">
+                                                    <?php if ($proyecto->urlproject) : ?>
+                                                        <a href="<?= $proyecto->urlproject ?>" target="_blank" class="btn btn-success">Ver sitio (Online) →</a>
+                                                    <?php endif ?>
+                                                    <?php if ($proyecto->urlcode) : ?>
+                                                        <a href="<?= $proyecto->urlcode ?>" target="_blank" class="btn btn-info m-align-right">Ver codigo →</a>
+                                                    <?php endif ?>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                               
-                                      <div class="space-bottom">
-                                         <div class="m-w-100">
-                                            <?php if($proyecto->urlproject):?>
-                                                <a href="<?=$proyecto->urlproject?>" target="_blank" class="btn btn-success">Ver sitio (Online) →</a>
-                                            <?php endif ?>
-                                            <?php if($proyecto->urlcode):?>
-                                                <a href="<?=$proyecto->urlcode?>" target="_blank" class="btn btn-info m-align-right">Ver codigo →</a>
-                                            <?php endif ?>
-                                           </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <?php endforeach;?>
+                                <?php endforeach; ?>
                                 <!-- fin -->
 
-                        </div>
+                            </div>
                         </div>
                     </section>
-                    </div>
-                        </div>
-
-                    <!---->
-                    <!---->
-                    <section id="contact" style="width:100%" class="section- wow fadeInUp delay-05s">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12 text-center white">
-                                <br>
-    <br>
-
-                                <h2 class="service-ttle pad-bt15">Mis datos.</h2>
-                                    <hr class="bottom-line white-bg">
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <div class="loction-info text-light white">
-                                        <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Bogotá - Colombia</p>
-                                        <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i><span id="correo"></span></p>
-                                        <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i><span id="celular"></span></p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <div class="loction-info white">
-                                        <p>
-                                            <a href="https://github.com/Lobaton2020/" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/github.png" alt=""></a>
-                                            <a href="https://github.com/Lobaton2020/" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; https://github.com/Lobaton2020/</a>
-                                        </p>
-                                        <p>
-                                            <a href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/linkedin.png" alt=""></a>
-                                            <a href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; <span>https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/</span></a>
-                                        </p>
-                                        <p>
-                                            <a href="Quiz/">.</a>
-                                        </p>
-
-                                    </div>
-                                </div>
-
-                                <h2 class="service-ttle pad-bt15 text-center white">Contáctame!!</h2>
-                                <div class="col-md-2"></div>
-                                <div class="col-md-8 col-sm-6 col-xs-12">
-                                    <div class="contact-form">
-                                    <?php if (isset($_GET["message"])) {
-                                        switch ($_GET["message"]) {
-                                            case "ok":
-                                                echo '<div class="alert alert-success">Tu mensage ha sido enviado. Gracias!</div>';
-                                                break;
-                                            case "bad":
-                                                echo '<div class="alert alert-danger">Los sentimos, el mensaje no se pudo enviar.</div>';
-                                                break;
-                                            default;
-                                                echo '<div class="alert alert-danger">Los sentimos, hubo un error.</div>';
-                                        }
-                                    }?>
-                                        <form action="https://tomanota.000webhostapp.com/formHeroku/envioDatos.php" method="post" role="form" class="contactForm">
-                                            <div class="col-md-6 padding-right-zero">
-                                                <div class="form-group">
-                                                    <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingresa al menos 4 caracteres" />
-                                                    <div class="validation"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" data-rule="email" data-msg="Por favor ingresa un email valido" />
-                                                    <div class="validation"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Titulo ó tema" data-rule="minlen:4" data-msg="Por favor ingresa al menos 8 caracteres para el titulo ó tema" />
-                                                    <div class="validation"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribenos algo" placeholder="Preguntame lo que necesites"></textarea>
-                                                    <div class="validation"></div>
-                                                </div>
-                                                <button type="submit" class="btn btn-primary btn-block btn-submit" style="margin-bottom: 5%;">Enviar Mensaje</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-2"></div>
-                        </div>
                 </div>
             </div>
-            </section>
-
-            <footer id="footer">
-                <div class="container">
-                    <div class="row text-center">
-                        <p>&copy; copyright Andres Lobaton <span id="year1"></span></p>
-
-                    </div>
-                </div>
-
-            </footer>
-  
 
             <!---->
-            <script src="js/jquery.min.js"></script>
-            <script src="js/jquery.easing.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/wow.js"></script>
-            <script src="js/jquery.bxslider.min.js"></script>
-            <script src="js/custom.js"></script>
-            <script src="js/contactform.js"></script>
-            <script>
-                window.onload = function() {
-                    if (window.innerWidth < 768) {
-                        document.querySelector("#put-br").innerHTML = "<br><br><br><br><br>";
+            <!---->
+            <section id="contact" style="width:100%" class="section- wow fadeInUp delay-05s">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center white">
+                            <br>
+                            <br>
 
-                        var num_class = document.querySelectorAll(".put_br");
-                        document.getElementsByClassName("margin_1")[0].style.marginBottom = "-10%";
+                            <h2 class="service-ttle pad-bt15">Mis datos.</h2>
+                            <hr class="bottom-line white-bg">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="loction-info text-light white">
+                                <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Bogotá - Colombia</p>
+                                <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i><span id="correo"></span></p>
+                                <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i><span id="celular"></span></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="loction-info white">
+                                <p>
+                                    <a href="https://github.com/Lobaton2020/" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/github.png" alt=""></a>
+                                    <a href="https://github.com/Lobaton2020/" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; https://github.com/Lobaton2020/</a>
+                                </p>
+                                <p>
+                                    <a href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/linkedin.png" alt=""></a>
+                                    <a href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; <span>https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/</span></a>
+                                </p>
+                                <p>
+                                    <a href="Quiz/">.</a>
+                                </p>
 
-                        for (let i = 0; i < num_class.length; i++) {
-                            num_class[i].innerHTML = "<br><br><br>";
-                        }
-                    } else {
-                        document.querySelector("#put-br1").innerHTML = "<br><br><br>";
-                    }
+                            </div>
+                        </div>
 
-                    document.querySelector("#year1").innerHTML = new Date().getFullYear();
+                        <h2 class="service-ttle pad-bt15 text-center white">Contáctame!!</h2>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 col-sm-6 col-xs-12">
+                            <div class="contact-form">
+                                <?php if (isset($_GET["message"])) {
+                                    switch ($_GET["message"]) {
+                                        case "ok":
+                                            echo '<div class="alert alert-success">Tu mensage ha sido enviado. Gracias!</div>';
+                                            break;
+                                        case "bad":
+                                            echo '<div class="alert alert-danger">Los sentimos, el mensaje no se pudo enviar.</div>';
+                                            break;
+                                        default;
+                                            echo '<div class="alert alert-danger">Los sentimos, hubo un error.</div>';
+                                    }
+                                } ?>
+                                <form action="https://tomanota.000webhostapp.com/formHeroku/envioDatos.php" method="post" role="form" class="contactForm">
+                                    <div class="col-md-6 padding-right-zero">
+                                        <div class="form-group">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingresa al menos 4 caracteres" />
+                                            <div class="validation"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" data-rule="email" data-msg="Por favor ingresa un email valido" />
+                                            <div class="validation"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Titulo ó tema" data-rule="minlen:4" data-msg="Por favor ingresa al menos 8 caracteres para el titulo ó tema" />
+                                            <div class="validation"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribenos algo" placeholder="Preguntame lo que necesites"></textarea>
+                                            <div class="validation"></div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-block btn-submit" style="margin-bottom: 5%;">Enviar Mensaje</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+    </div>
+    </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <p>&copy; copyright Andres Lobaton <span id="year1"></span></p>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!---->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/contactform.js"></script>
+    <script>
+        window.onload = function() {
+            if (window.innerWidth < 768) {
+                document.querySelector("#put-br").innerHTML = "<br><br><br><br><br>";
+
+                var num_class = document.querySelectorAll(".put_br");
+                document.getElementsByClassName("margin_1")[0].style.marginBottom = "-10%";
+
+                for (let i = 0; i < num_class.length; i++) {
+                    num_class[i].innerHTML = "<br><br><br>";
                 }
-            </script>
+            } else {
+                document.querySelector("#put-br1").innerHTML = "<br><br><br>";
+            }
+
+            document.querySelector("#year1").innerHTML = new Date().getFullYear();
+        }
+    </script>
 </body>
 
 </html>
