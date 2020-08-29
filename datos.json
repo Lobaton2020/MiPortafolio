@@ -15,7 +15,7 @@
         "urlimg": "img/redsocial.png",
         "description": "Permite el interactuar con otros usuarios como realizar posts, hacer amigos, chatear, reaccinar, hacer comentarios de forma segura etc.",
         "technologies": "HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT",
-        "urlproject": null,
+        "urlproject": "http://socialnet.ibx.lat/",
         "urlcode": "https://github.com/Lobaton2020/Redsocial_SocialNet",
         "date": "Mayo 2020",
         "urlvideo": null
