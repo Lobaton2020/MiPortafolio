@@ -1,4 +1,15 @@
-[{
+[
+{
+        "title": "Tus Finanzas",
+        "subtitle": "Proyecto Individual",
+        "urlimg": "img/finanzas.png",
+        "description": "Maneja tu dinero de la manera mas eficiente, aqui podras agregar tus inrgesos y llevar un registro detallado de tus gastos.",
+        "technologies": "HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT",
+        "urlproject": null,
+        "urlcode": "https://github.com/Lobaton2020/Manejo-Finanzas",
+        "date": "Septiembre 2020",
+        "urlvideo": null
+    },{
         "title": "Transporte - Publico",
         "subtitle": "Proyecto Individual",
         "urlimg": "img/trans-public.png",
