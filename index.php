@@ -247,9 +247,13 @@
                                                     <p class="p"><?= $proyecto->description ?></p>
                                                     <p class="p"><b>Tecnologias usadas:</b> <?= $proyecto->technologies ?></p>
                                                     <p class="p"><?= $proyecto->date ?></p>
+                                                    <?php if ($proyecto->urlvideo) : ?>
+                                                        <p>
+                                                            <a style="text-decoration:underline" href="<?= $proyecto->urlvideo ?>" target="_blank">Quiero ver el tutorial</a>
+                                                        </p>
+                                                    <?php endif ?>
                                                 </div>
                                             </div>
-
                                             <div class="space-bottom">
                                                 <div class="m-w-100">
                                                     <?php if ($proyecto->urlproject) : ?>
