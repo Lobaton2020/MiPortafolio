@@ -1,5 +1,16 @@
 [
-{
+    {
+        "title": "Turixmo.com",
+        "subtitle": "Proyecto final, Tecnologo SENA - ADSI (en grupo) 'Tu mejor opcion'",
+        "urlimg": "img/turixmo.png",
+        "description": "Sistema de reservas de habitaciones, para dar la oportunidad a pequeños hoteles ofrecer sus servicios, y a los turistas poder visitar sitios a un precio muy economico.",
+        "technologies": "HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT - VUE JS - (Microframework << Laurel >>)",
+        "urlproject": null,
+        "urlcode": null,
+        "date": "Noviembre 2020",
+        "urlvideo": null
+    },
+    {
         "title": "Tus Finanzas",
         "subtitle": "Proyecto Individual",
         "urlimg": "img/finanzas.png",
@@ -9,7 +20,8 @@
         "urlcode": "https://github.com/Lobaton2020/Manejo-Finanzas",
         "date": "Septiembre 2020",
         "urlvideo": "https://www.youtube.com/watch?v=w0I53R80JyM"
-    },{
+    },
+    {
         "title": "Transporte - Publico",
         "subtitle": "Proyecto Individual",
         "urlimg": "img/trans-public.png",
@@ -52,7 +64,6 @@
         "urlcode": "https://github.com/Lobaton2020/Sitio_Once_01",
         "date": "Octubre 2019",
         "urlvideo": null
-
     },
     {
         "title": "TomaNotas",
@@ -64,7 +75,6 @@
         "urlcode": "https://github.com/Lobaton2020/TomaNotas",
         "date": "desde Julio 2019",
         "urlvideo": null
-
     },
     {
         "title": "Proyecto Solumovil",

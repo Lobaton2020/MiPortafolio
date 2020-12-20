@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portafolio | Andres Lobaton</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Currilulum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
+    <meta name="keywords" content="Currilulum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
 
     <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
     <meta property="og:title" content="Portafolio Currilulum - Andres Lobaton ">
@@ -100,12 +100,10 @@
                             Mi nombre es <em>Andres Lobaton</em>, Soy de colombia, Me apasiona la programacion y la informatica, tengo la curiosidad
                             de saber como funcionan las computadoras y lo que pueden hacer, me gusta mucho aprender nuevas
                             tecnologias que me motivan y me impulsan a ser cada vez mejor.
-                            <br><br> Actualmente me encuentro estudiando en el SENA (Servicio Nacional de Apredizaje) donde estoy realizando un Tecnologo
-                            en Analisis y Desarrollo de Sistemas de Informacion. Tambien estoy aprendiendo el lenguje de programacion
-                            JAVA (EE) adicional el framework Angular 8, aprendo nuevas cosas cada dia.
+                            <br><br> Actualmente me encuentro trabajando en la empresa <a href="https://woombatcg.com/" target="_blank">Woombat Consulting-Group</a> donde estoy impulsando mi aprendizaje en Ciencia de Datos.
                             <br><br>
                             Soy de los que creen que "La constancia siempre vencerá la inteligencia", pienso que aportando un grano de arena todos los dias,
-                            lograremos grandes cosas. Sé que este "mundo" del desarrollo de software es muy grande y que por medio de esto podré contribuir y ayudar a los demas.</p>
+                            lograremos grandes cosas. Sé que este mundo del desarrollo de software es muy grande y que por medio de esto podré contribuir y ayudar a los demas.</p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="service-item">
@@ -151,6 +149,8 @@
                                             <li type="circle" class="pad-bt15 text-left">BOOTSTRAP4</li>
                                             <li type="circle" class="pad-bt15 text-left">JAVASCRIPT</li>
                                             <li type="circle" class="pad-bt15 text-left">AJAX</li>
+                                            <li type="circle" class="pad-bt15 text-left">REACT JS</li>
+                                            <li type="circle" class="pad-bt15 text-left">VUE JS</li>
 
                                         </ol>
                                         <p></p>
@@ -172,6 +172,12 @@
                                             <li type="circle" class="pad-bt15 text-left">JAVA EE
                                                 <ul>
                                                     <li type="circle">JSP - Servlets</li>
+                                                </ul>
+                                            </li>
+                                            <li type="circle" class="pad-bt15 text-left">NODE JS
+                                                <ul>
+                                                    <li type="circle">NPM</li>
+                                                    <li type="circle">API</li>
                                                 </ul>
                                             </li>
                                             <li type="circle" class="pad-bt15 text-left">PYTHON
@@ -201,9 +207,12 @@
                                         <ul>
                                             <li type="circle" class="pad-bt15 text-left">GIT</li>
                                             <li type="circle" class="pad-bt15 text-left">GITHUB</li>
+                                            <li type="circle" class="pad-bt15 text-left">LARAVEL con php <small class="text-muted"></small></li>
+                                            <li type="circle" class="pad-bt15 text-left">DJANGO con python <small class="text-muted"></small></li>
                                             <li type="circle" class="pad-bt15 text-left">ANGULAR JS <small class="text-muted">(Nivel basico)</small></li>
-                                            <li type="circle" class="pad-bt15 text-left">REACT JS <small class="text-muted">(Nivel basico)</small></li>
-                                            <li type="circle" class="pad-bt15 text-left">LARAVEL <small class="text-muted">(Nivel basico)</small></li>
+                                            <li type="circle" class="pad-bt15 text-left">FLASK con python <small class="text-muted">(Nivel basico)</small></li>
+
+                                            <li type="circle" class="pad-bt15 text-left">SISTEMAS DISTRIBUIDOS (Hadoop - Spark | Manejo de cloudera) <small class="text-muted">(Nivel basico)</small></li>
                                             <li type="circle" class="pad-bt15 text-left">
                                                 <h4>Sistemas Operativos</h4>
                                                 <ul>
@@ -297,12 +306,12 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="loction-info white">
                                 <p>
-                                    <a href="https://github.com/Lobaton2020/" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/github.png" alt=""></a>
-                                    <a href="https://github.com/Lobaton2020/" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; https://github.com/Lobaton2020/</a>
+                                    <a href="https://github.com/Lobaton2020/" target="_blank" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/github.png" alt=""></a>
+                                    <a href="https://github.com/Lobaton2020/" target="_blank" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; https://github.com/Lobaton2020/</a>
                                 </p>
                                 <p>
-                                    <a href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/linkedin.png" alt=""></a>
-                                    <a href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; <span>https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/</span></a>
+                                    <a href="https://www.linkedin.com/in/aflobaton/" target="_blank" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/linkedin.png" alt=""></a>
+                                    <a href="https://www.linkedin.com/in/aflobaton/" target="_blank" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; <span>https://www.linkedin.com/in/aflobaton/</span></a>
                                 </p>
                                 <p>
                                     <a href="Quiz/">.</a>
@@ -383,7 +392,7 @@
     <script src="js/custom.js"></script>
     <script src="js/contactform.js"></script>
     <script>
-        window.onload = function() {
+        document.addEventListener("DOMContentLoaded", function() {
             if (window.innerWidth < 768) {
                 document.querySelector("#put-br").innerHTML = "<br><br><br><br><br>";
 
@@ -398,7 +407,7 @@
             }
 
             document.querySelector("#year1").innerHTML = new Date().getFullYear();
-        }
+        });
     </script>
 </body>
 
