@@ -37,7 +37,6 @@
                 const type = e.target.dataset.type;
                 fetch(`./index.php?project=${name}&type=${type}&from=ajax`)
             })(window, document, e)
-            e.preventDefault()
         };
     </script>
 </head>
