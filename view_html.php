@@ -105,10 +105,12 @@
                         <h2 class=" service-title mt-3 pad-bt15">Sobre mi</h2>
                         <hr class="bottom-line">
                         <p class="sub-title pad-bt15 text-justify">
-                            Mi nombre es <em>Andres Lobaton</em>, Soy de colombia, Me apasiona la programacion y la informatica, tengo la curiosidad
+                            Soy <em>Andres Lobaton</em>, vivo en Bogotá-Colombia, Me apasiona la programacion y la informatica, tengo la curiosidad
                             de saber como funcionan las computadoras y lo que pueden hacer, me gusta mucho aprender nuevas
                             tecnologias que me motivan y me impulsan a ser cada vez mejor.
-                            <br><br> Actualmente me encuentro trabajando en la empresa <a href="https://woombatcg.com/" target="_blank">Woombat Consulting-Group</a> donde estoy impulsando mi aprendizaje en Ciencia de Datos.
+                            Me caracterizo por ser una persona empatica, amable, y responsable cuento con una experiencia desarrollando software. Actualmente (2021) para una empresa de Identidad Digital.
+                            <br>
+                            Soy una persona muy atodidacta, practico mucho, y veo muchos cursos en diferentes plataformas de aprendizaje Online.
                             <br><br>
                             Soy de los que creen que "La constancia siempre vencerá la inteligencia", pienso que aportando un grano de arena todos los dias,
                             lograremos grandes cosas. Sé que este mundo del desarrollo de software es muy grande y que por medio de esto podré contribuir y ayudar a los demas.
@@ -160,6 +162,7 @@
                                             <li type="circle" class="pad-bt15 text-left">AJAX</li>
                                             <li type="circle" class="pad-bt15 text-left">REACT JS</li>
                                             <li type="circle" class="pad-bt15 text-left">VUE JS</li>
+                                            <li type="circle" class="pad-bt15 text-left">ANGULAR JS</li>
 
                                         </ol>
                                         <p></p>
@@ -172,31 +175,16 @@
                                             <img style="width:100px;height:100px;" src="img/logo_back.png">
                                         </div>
                                         <ul>
-                                            <li type="circle" class="pad-bt15 text-left">PHP
-                                                <ul>
-                                                    <li type="circle">Programacion Orientada a Objetos (POO).</li>
-                                                    <li type="circle">Implementacion de Modelo - Vista - Controlador (MVC).</li>
-                                                </ul>
-                                            </li>
-                                            <li type="circle" class="pad-bt15 text-left">JAVA EE
-                                                <ul>
-                                                    <li type="circle">JSP - Servlets</li>
-                                                </ul>
-                                            </li>
+                                            <li type="circle" class="pad-bt15 text-left">PHP (MVC - POO)</li>
+                                            <li type="circle" class="pad-bt15 text-left">JAVA EE (JSP - Servlets)</li>
                                             <li type="circle" class="pad-bt15 text-left">NODE JS
                                                 <ul>
-                                                    <li type="circle">NPM</li>
-                                                    <li type="circle">API</li>
+                                                    <li type="circle">API REST- NPM</li>
+                                                    <li type="circle">NestJS</li>
+                                                    <li type="circle">ORMS (Sequelize - TypeOrm)</li>
                                                 </ul>
                                             </li>
-                                            <li type="circle" class="pad-bt15 text-left">PYTHON
-                                                <ul>
-                                                    <li type="circle">Diccionarios</li>
-                                                    <li type="circle">Listas</li>
-                                                    <li type="circle">Dataframes etc.</li>
-                                                </ul>
-                                            </li>
-
+                                            <li type="circle" class="pad-bt15 text-left">PYTHON (PIP - POO - PANDAS) </li>
                                             <li type="circle" class="pad-bt15 text-left">MYSQL
                                                 <ul>
                                                     <li type="circle">Vistas.</li>
@@ -215,18 +203,29 @@
                                         </div>
                                         <ul>
                                             <li type="circle" class="pad-bt15 text-left">GIT</li>
-                                            <li type="circle" class="pad-bt15 text-left">GITHUB</li>
-                                            <li type="circle" class="pad-bt15 text-left">LARAVEL con php <small class="text-muted"></small></li>
-                                            <li type="circle" class="pad-bt15 text-left">DJANGO con python <small class="text-muted"></small></li>
-                                            <li type="circle" class="pad-bt15 text-left">ANGULAR JS <small class="text-muted">(Nivel basico)</small></li>
-                                            <li type="circle" class="pad-bt15 text-left">FLASK con python <small class="text-muted">(Nivel basico)</small></li>
+                                            <li type="circle" class="pad-bt15 text-left">GITHUB - GITLAB</li>
+                                            <li type="circle" class="pad-bt15 text-left">LARAVEL con php</li>
+                                            <li type="circle" class="pad-bt15 text-left">FLASK con python </li>
+                                            <li type="circle" class="pad-bt15 text-left">DJANGO con python </li>
+                                            <li type="circle" class="pad-bt15 text-left">ANGULAR JS </li>
 
                                             <li type="circle" class="pad-bt15 text-left">SISTEMAS DISTRIBUIDOS (Hadoop - Spark | Manejo de cloudera) <small class="text-muted">(Nivel basico)</small></li>
                                             <li type="circle" class="pad-bt15 text-left">
                                                 <h4>Sistemas Operativos</h4>
                                                 <ul>
-                                                    <li type="circle">Linux <small class="text-muted">(Nivel basico)</small></li>
+                                                    <li type="circle">Linux </li>
                                                     <li type="circle">Windows</li>
+                                                </ul>
+                                            </li>
+                                            <li type="circle" class="pad-bt15 text-left">
+                                                <h4>Amazon Web Services (AWS)</h4>
+                                                <ul>
+                                                    <li type="circle">Api Gateway</li>
+                                                    <li type="circle">Lambda</li>
+                                                    <li type="circle">Secrets</li>
+                                                    <li type="circle">CloudWatch</li>
+                                                    <li type="circle">EC2 - ECR - ECS</li>
+
                                                 </ul>
                                             </li>
                                         </ul>

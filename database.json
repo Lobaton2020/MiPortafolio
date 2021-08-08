@@ -1,5 +1,1 @@
-{
-    "name": "Registro de visitas del sitio",
-    "visits": [],
-    "projects": {}
-}
+{"name":"Registro de visitas del sitio","visits":[{"ip":"::1","count":2,"browser":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/87.0.4280.141 Safari\/537.36","lastvisit_at":"2021-01-23 22:59:18","visist_at":"2021-01-23 22:59:18"}],"projects":{"Tus-Finanzas":{"clicks":{"sitio":1,"codigo":1}}}}

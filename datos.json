@@ -14,7 +14,7 @@
         "title": "Tus Finanzas",
         "subtitle": "Proyecto Individual",
         "urlimg": "img/finanzas.png",
-        "description": "Maneja tu dinero de la manera mas eficiente, aqui podras agregar tus inrgesos y llevar un registro detallado de tus gastos.",
+        "description": "Maneja tu dinero de la manera mas eficiente, aqui podras agregar tus ingresos y llevar un registro detallado de tus gastos.",
         "technologies": "HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT",
         "urlproject": "http://finanzas.infinityfreeapp.com/",
         "urlcode": "https://github.com/Lobaton2020/Manejo-Finanzas",
@@ -38,7 +38,7 @@
         "urlimg": "img/redsocial.png",
         "description": "Permite el interactuar con otros usuarios como realizar posts, hacer amigos, chatear, reaccinar, hacer comentarios de forma segura etc.",
         "technologies": "HTML5 - CSS3 - PHP - MYSQL - BOOTSTRAP 4 - #JAVASCRIPT",
-        "urlproject": "http://socialnet.ibx.lat/",
+        "urlproject": null,
         "urlcode": "https://github.com/Lobaton2020/Redsocial_SocialNet",
         "date": "Mayo 2020",
         "urlvideo": null
@@ -60,7 +60,7 @@
         "urlimg": "img/sitio_1101.png",
         "description": "Creado para recordar mi grado de 11, imagenes que se congelan en el tiempo, y compartirlo con mis compañeros.",
         "technologies": "HTML5 - CSS3 - BOOTSTRAP 4 - PHP - MYSQL",
-        "urlproject": "http://andreslobaton.atwebpages.com/",
+        "urlproject": null,
         "urlcode": "https://github.com/Lobaton2020/Sitio_Once_01",
         "date": "Octubre 2019",
         "urlvideo": null
