@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portafolio | Andres Lobaton</title>
-    <meta name="description" content="Currilulum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
-    <meta name="keywords" content="Currilulum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
+    <meta name="description" content="Curriculum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
+    <meta name="keywords" content="Curriculum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
 
     <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
     <meta property="og:title" content="Portafolio Currilulum - Andres Lobaton ">
@@ -108,9 +108,9 @@
                             Soy <em>Andres Lobaton</em>, vivo en Bogotá-Colombia, Me apasiona la programacion y la informatica, tengo la curiosidad
                             de saber como funcionan las computadoras y lo que pueden hacer, me gusta mucho aprender nuevas
                             tecnologias que me motivan y me impulsan a ser cada vez mejor.
-                            Me caracterizo por ser una persona empatica, amable, y responsable cuento con una experiencia desarrollando software. Actualmente (2021) para una empresa de Identidad Digital.
+                            Me caracterizo por ser una persona empatica, amable, y responsable cuento con una experiencia desarrollando software, actualmente (2021) para una empresa de Identidad Digital.
                             <br>
-                            Soy una persona muy atodidacta, practico mucho, y veo muchos cursos en diferentes plataformas de aprendizaje Online.
+                            Suelo ser muy autodidacta, practico mucho, y veo muchos cursos en diferentes plataformas de aprendizaje Online.
                             <br><br>
                             Soy de los que creen que "La constancia siempre vencerá la inteligencia", pienso que aportando un grano de arena todos los dias,
                             lograremos grandes cosas. Sé que este mundo del desarrollo de software es muy grande y que por medio de esto podré contribuir y ayudar a los demas.
@@ -192,6 +192,14 @@
                                                     <li type="circle">Triggers.</li>
                                                 </ul>
                                             </li>
+                                            <li type="circle" class="pad-bt15 text-left">
+                                                <strong>Adicional:</strong>
+                                                <ul>
+                                                    <li type="circle" class="pad-bt15 text-left">LARAVEL con php</li>
+                                                    <li type="circle" class="pad-bt15 text-left">FLASK con python </li>
+                                                    <li type="circle" class="pad-bt15 text-left">DJANGO con python </li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -204,13 +212,9 @@
                                         <ul>
                                             <li type="circle" class="pad-bt15 text-left">GIT</li>
                                             <li type="circle" class="pad-bt15 text-left">GITHUB - GITLAB</li>
-                                            <li type="circle" class="pad-bt15 text-left">LARAVEL con php</li>
-                                            <li type="circle" class="pad-bt15 text-left">FLASK con python </li>
-                                            <li type="circle" class="pad-bt15 text-left">DJANGO con python </li>
-
                                             <li type="circle" class="pad-bt15 text-left">SISTEMAS DISTRIBUIDOS (Hadoop - Spark | Manejo de cloudera) <small class="text-muted">(Nivel basico)</small></li>
                                             <li type="circle" class="pad-bt15 text-left">
-                                                <h4>Sistemas Operativos</h4>
+                                                <strong>Sistemas Operativos</strong>
                                                 <ul>
                                                     <li type="circle">Linux </li>
                                                     <li type="circle">Windows</li>
