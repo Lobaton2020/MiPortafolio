@@ -160,8 +160,8 @@
                                             <li type="circle" class="pad-bt15 text-left">BOOTSTRAP4</li>
                                             <li type="circle" class="pad-bt15 text-left">JAVASCRIPT</li>
                                             <li type="circle" class="pad-bt15 text-left">AJAX</li>
-                                            <li type="circle" class="pad-bt15 text-left">REACT JS</li>
                                             <li type="circle" class="pad-bt15 text-left">VUE JS</li>
+                                            <li type="circle" class="pad-bt15 text-left">REACT JS</li>
                                             <li type="circle" class="pad-bt15 text-left">ANGULAR JS</li>
 
                                         </ol>
@@ -207,7 +207,6 @@
                                             <li type="circle" class="pad-bt15 text-left">LARAVEL con php</li>
                                             <li type="circle" class="pad-bt15 text-left">FLASK con python </li>
                                             <li type="circle" class="pad-bt15 text-left">DJANGO con python </li>
-                                            <li type="circle" class="pad-bt15 text-left">ANGULAR JS </li>
 
                                             <li type="circle" class="pad-bt15 text-left">SISTEMAS DISTRIBUIDOS (Hadoop - Spark | Manejo de cloudera) <small class="text-muted">(Nivel basico)</small></li>
                                             <li type="circle" class="pad-bt15 text-left">
@@ -218,7 +217,7 @@
                                                 </ul>
                                             </li>
                                             <li type="circle" class="pad-bt15 text-left">
-                                                <h4>Amazon Web Services (AWS)</h4>
+                                                <strong>Amazon Web Services (AWS)</strong>
                                                 <ul>
                                                     <li type="circle">Api Gateway</li>
                                                     <li type="circle">Lambda</li>
@@ -256,13 +255,13 @@
                                                 <h3 style="text-align:center;margin:19px auto"><?= $proyecto->title ?></h3>
                                                 <div class="blog-img">
                                                     <a href="<?= ($proyecto->urlproject != NULL) ? $proyecto->urlproject : "" ?>" target="_blank">
-                                                        <img style="border-radius: 1%;" src="<?= $proyecto->urlimg ?>" class="img-responsive">
+                                                        <img alt="<?= $proyecto->urlimg ?>" style="border-radius: 1%;" src="<?= $proyecto->urlimg ?>" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="blog-info">
                                                     <p class="p"><?= $proyecto->subtitle ?></p>
                                                     <p class="p"><?= $proyecto->description ?></p>
-                                                    <p class="p"><b>Tecnologias usadas:</b> <?= $proyecto->technologies ?></p>
+                                                    <p class="p"><strong>Tecnologias usadas:</strong> <?= $proyecto->technologies ?></p>
                                                     <p class="p"><?= $proyecto->date ?></p>
                                                     <?php if ($proyecto->urlvideo) : ?>
                                                         <p>
@@ -306,9 +305,9 @@
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="loction-info text-light white">
-                                <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Bogotá - Colombia</p>
-                                <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i><span id="correo"></span></p>
-                                <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i><span id="celular"></span></p>
+                                <p><em class="fa fa-map-marker fa-fw pull-left fa-2x"></em>Bogotá - Colombia</p>
+                                <p><em class="fa fa-envelope-o fa-fw pull-left fa-2x"></em><span id="correo"></span></p>
+                                <p><em class="fa fa-phone fa-fw pull-left fa-2x"></em><span id="celular"></span></p>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
