@@ -31,21 +31,23 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script>
-        function clickProject(e) {
-            (async function(w, d, e) {
-                const name = e.target.dataset.project;
-                const type = e.target.dataset.type;
-            // fetch(`./index.php?project=${name}&type=${type}&from=ajax`) // Old version: Just works with server normal. differente serverless
-            const body = {
-                interactions:[ { name } ]
-            }
-            const url = `https://statistics-web-pages.herokuapp.com/tracking/${location.hostname}`
+        const url = `https://statistics-web-pages.herokuapp.com/tracking/${location.hostname}`;
+        function makeRequest(data){
             fetch(url,{
                 method: 'POST',
-                body
+                body: JSON.stringify(data),
+                headers:{
+                    "Content-Type":"application/json"
+                }
             })
-            })(window, document, e)
-        };
+        }
+        function clickProject(e) {
+            const name = e.target.dataset.project;
+            const type = e.target.dataset.type;
+            makeRequest({ interactions:[ { name: `${name}__${type}` } ] })
+
+        }
+        document.addEventListener('DOMContentLoaded',()=> makeRequest({}))
     </script>
 </head>
 
