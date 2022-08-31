@@ -35,7 +35,15 @@
             (async function(w, d, e) {
                 const name = e.target.dataset.project;
                 const type = e.target.dataset.type;
-                fetch(`./index.php?project=${name}&type=${type}&from=ajax`)
+            // fetch(`./index.php?project=${name}&type=${type}&from=ajax`) // Old version: Just works with server normal. differente serverless
+            const body = {
+                interactions:[ { name } ]
+            }
+            const url = `https://statistics-web-pages.herokuapp.com/tracking/${location.hostname}`
+            fetch(url,{
+                method: 'POST',
+                body
+            })
             })(window, document, e)
         };
     </script>
