@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portafolio | Andres Lobaton</title>
-    <meta name="description" content="Currilulum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
-    <meta name="keywords" content="Currilulum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
+    <meta name="description" content="Curriculum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
+    <meta name="keywords" content="Curriculum o portafolio para reclutadores empresas que quieren hacer un con contrato de trabajo con migo como desarrollador">
 
     <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
     <meta property="og:title" content="Portafolio Currilulum - Andres Lobaton ">
@@ -35,7 +35,15 @@
             (async function(w, d, e) {
                 const name = e.target.dataset.project;
                 const type = e.target.dataset.type;
-                fetch(`./index.php?project=${name}&type=${type}&from=ajax`)
+            // fetch(`./index.php?project=${name}&type=${type}&from=ajax`) // Old version: Just works with server normal. differente serverless
+            const body = {
+                interactions:[ { name } ]
+            }
+            const url = `https://statistics-web-pages.herokuapp.com/tracking/${location.hostname}`
+            fetch(url,{
+                method: 'POST',
+                body
+            })
             })(window, document, e)
         };
     </script>
@@ -57,15 +65,15 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="https://www.linkedin.com/in/andres-lobaton-vivas-bb76a9197/" target="_blank">Andres Lobaton<span class="logo-dec"></span></a>
+                                <a class="navbar-brand" href="https://www.linkedin.com/in/aflobaton/" target="_blank">Andres Lobaton<span class="logo-dec"></span></a>
                             </div>
                             <div class="collapse navbar-collapse" id="myNavbar">
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class="active"><a href="#main-header">Inicio</a></li>
-                                    <li class=""><a href="#about">Sobre mi</a></li>
-                                    <li class=""><a href="#habilidades">Habilidades</a></li>
-                                    <li class=""><a href="#portafolio">Proyectos</a></li>
-                                    <li class=""><a href="#contact">Contacto</a></li>
+                                    <li class=""><a href="#about">About me</a></li>
+                                    <li class=""><a href="#habilidades">Technologies</a></li>
+                                    <li class=""><a href="#portafolio">Portfolio</a></li>
+                                    <li class=""><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -78,10 +86,10 @@
                         <div class="row">
                             <div class="banner-info mt-sm-4 text-center wow fadeIn delay-05s">
                                 <h1 class="bg-info bnr-title mt-sm-4">
-                                    <h1 class="" style="margin-top: 5%;"><span>Desarrollador de Software</span> </h1><span></span>
+                                    <h1 class="" style="margin-top: 5%;"><span>Software Developer</span> </h1><span></span>
                                 </h1>
-                                <h3 class=" bnr-sub-title"><span style="margin:auto 2% auto 2%;"> "Permíteme como desarrollador apoyar tu trabajo"</span></h3><br />
-                                <p class="bnr-para">-- Desarrollador Front-end y Back-end --</p>
+                                <h3 class=" bnr-sub-title"><span style="margin:auto 2% auto 2%;"> "Build us amazing things "</span></h3><br />
+                                <p class="bnr-para">-- FullStack Developer --</p>
 
                                 <div class="brn-btn">
 
@@ -102,18 +110,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h2 class=" service-title mt-3 pad-bt15">Sobre mi</h2>
+                        <h2 class=" service-title mt-3 pad-bt15">About me</h2>
                         <hr class="bottom-line">
                         <p class="sub-title pad-bt15 text-justify">
-                            Soy <em>Andres Lobaton</em>, vivo en Bogotá-Colombia, Me apasiona la programacion y la informatica, tengo la curiosidad
-                            de saber como funcionan las computadoras y lo que pueden hacer, me gusta mucho aprender nuevas
-                            tecnologias que me motivan y me impulsan a ser cada vez mejor.
-                            Me caracterizo por ser una persona empatica, amable, y responsable cuento con una experiencia desarrollando software. Actualmente (2021) para una empresa de Identidad Digital.
-                            <br>
-                            Soy una persona muy atodidacta, practico mucho, y veo muchos cursos en diferentes plataformas de aprendizaje Online.
-                            <br><br>
-                            Soy de los que creen que "La constancia siempre vencerá la inteligencia", pienso que aportando un grano de arena todos los dias,
-                            lograremos grandes cosas. Sé que este mundo del desarrollo de software es muy grande y que por medio de esto podré contribuir y ayudar a los demas.
+                            My name is Andres. I am a web programmer from Colombia, currently living in Bogotá.
+                            I am coursing my first year of college in informatic eingeeniring, with a background in technical software programming.
+                            I am a full stack developer, with a strong interest in web development, and I am always looking for new challenges.
+                        </p>
+                        <p class="sub-title pad-bt15 text-justify">
+                            I have around 3 years of experience in the field of web development in companies and building personal projects and I have worked with a variety of technologies.
+                            My focus is on Javascript, Nest JS, Angular JS, NodeJS, create API's, I have worked with the SCRUM methodology, and I have experience with the agile methodology.
+                        </p>
+                        <p class="sub-title pad-bt15 text-justify">
+                            I love learning new technologies, I could help you to build a new product or a new service only contact me foe discouse what do you need.
                         </p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12">
@@ -142,7 +151,7 @@
                         <span class="put_br"></span>
                         <span id="put-br1"></span>
 
-                        <h2 class="service-title margin_1">Habilidades</h2>
+                        <h2 class="service-title margin_1">Technologies</h2>
                     </div>
                     <!---->
                     <section id="featur" class="section-padding wow fadeIn delay-05s">
@@ -160,8 +169,8 @@
                                             <li type="circle" class="pad-bt15 text-left">BOOTSTRAP4</li>
                                             <li type="circle" class="pad-bt15 text-left">JAVASCRIPT</li>
                                             <li type="circle" class="pad-bt15 text-left">AJAX</li>
-                                            <li type="circle" class="pad-bt15 text-left">REACT JS</li>
                                             <li type="circle" class="pad-bt15 text-left">VUE JS</li>
+                                            <li type="circle" class="pad-bt15 text-left">REACT JS</li>
                                             <li type="circle" class="pad-bt15 text-left">ANGULAR JS</li>
 
                                         </ol>
@@ -187,9 +196,17 @@
                                             <li type="circle" class="pad-bt15 text-left">PYTHON (PIP - POO - PANDAS) </li>
                                             <li type="circle" class="pad-bt15 text-left">MYSQL
                                                 <ul>
-                                                    <li type="circle">Vistas.</li>
-                                                    <li type="circle">Procedimientos almacenados.</li>
-                                                    <li type="circle">Triggers.</li>
+                                                    <li type="circle">Views</li>
+                                                    <li type="circle">Stored Procedures</li>
+                                                    <li type="circle">Triggers</li>
+                                                </ul>
+                                            </li>
+                                            <li type="circle" class="pad-bt15 text-left">
+                                                <strong>In Addition:</strong>
+                                                <ul>
+                                                    <li type="circle" class="pad-bt15 text-left">LARAVEL with php</li>
+                                                    <li type="circle" class="pad-bt15 text-left">FLASK with python </li>
+                                                    <li type="circle" class="pad-bt15 text-left">DJANGO with python </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -197,28 +214,23 @@
                                 </div>
                                 <div class="col-md-4  col-sm-6 col-xs-12">
                                     <div class="wrap-item text-center">
-                                        <h3 class="pad-bt15 text-center">Otros</h3>
+                                        <h3 class="pad-bt15 text-center">Others</h3>
                                         <div class="item-img">
                                             <img style="width:100px;height:100px;" src="img/github.png">
                                         </div>
                                         <ul>
                                             <li type="circle" class="pad-bt15 text-left">GIT</li>
                                             <li type="circle" class="pad-bt15 text-left">GITHUB - GITLAB</li>
-                                            <li type="circle" class="pad-bt15 text-left">LARAVEL con php</li>
-                                            <li type="circle" class="pad-bt15 text-left">FLASK con python </li>
-                                            <li type="circle" class="pad-bt15 text-left">DJANGO con python </li>
-                                            <li type="circle" class="pad-bt15 text-left">ANGULAR JS </li>
-
-                                            <li type="circle" class="pad-bt15 text-left">SISTEMAS DISTRIBUIDOS (Hadoop - Spark | Manejo de cloudera) <small class="text-muted">(Nivel basico)</small></li>
+                                            <li type="circle" class="pad-bt15 text-left">DISTRIBUITED SYSTEMS (Hadoop - Spark | Manage de cloudera) <small class="text-muted">(Basic Level)</small></li>
                                             <li type="circle" class="pad-bt15 text-left">
-                                                <h4>Sistemas Operativos</h4>
+                                                <strong>Operatives System</strong>
                                                 <ul>
                                                     <li type="circle">Linux </li>
                                                     <li type="circle">Windows</li>
                                                 </ul>
                                             </li>
                                             <li type="circle" class="pad-bt15 text-left">
-                                                <h4>Amazon Web Services (AWS)</h4>
+                                                <strong>Amazon Web Services (AWS)</strong>
                                                 <ul>
                                                     <li type="circle">Api Gateway</li>
                                                     <li type="circle">Lambda</li>
@@ -242,7 +254,7 @@
                         <div class="container cont">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                    <h2 class="service-title pad-bt15">Mis proyectos</h2>
+                                    <h2 class="service-title pad-bt15">My Projects</h2>
 
                                     <hr class="bottom-line">
                                 </div>
@@ -256,17 +268,17 @@
                                                 <h3 style="text-align:center;margin:19px auto"><?= $proyecto->title ?></h3>
                                                 <div class="blog-img">
                                                     <a href="<?= ($proyecto->urlproject != NULL) ? $proyecto->urlproject : "" ?>" target="_blank">
-                                                        <img style="border-radius: 1%;" src="<?= $proyecto->urlimg ?>" class="img-responsive">
+                                                        <img alt="<?= $proyecto->urlimg ?>" style="border-radius: 1%;" src="<?= $proyecto->urlimg ?>" class="img-responsive">
                                                     </a>
                                                 </div>
                                                 <div class="blog-info">
                                                     <p class="p"><?= $proyecto->subtitle ?></p>
                                                     <p class="p"><?= $proyecto->description ?></p>
-                                                    <p class="p"><b>Tecnologias usadas:</b> <?= $proyecto->technologies ?></p>
+                                                    <p class="p"><strong>Used technologies:</strong> <?= $proyecto->technologies ?></p>
                                                     <p class="p"><?= $proyecto->date ?></p>
                                                     <?php if ($proyecto->urlvideo) : ?>
                                                         <p>
-                                                            <a style="text-decoration:underline" href="<?= $proyecto->urlvideo ?>" target="_blank">Quiero ver el tutorial</a>
+                                                            <a style="text-decoration:underline" href="<?= $proyecto->urlvideo ?>" target="_blank">Watch the tutorial</a>
                                                         </p>
                                                     <?php endif ?>
                                                 </div>
@@ -274,10 +286,10 @@
                                             <div class="space-bottom">
                                                 <div class="m-w-100">
                                                     <?php if ($proyecto->urlproject) : ?>
-                                                        <a href="<?= $proyecto->urlproject ?>" onclick="clickProject(event)" data-project="<?= $proyecto->title ?>" data-type="sitio" target="_blank" class="btn btn-success">Ver sitio (Online) →</a>
+                                                        <a href="<?= $proyecto->urlproject ?>" onclick="clickProject(event)" data-project="<?= $proyecto->title ?>" data-type="sitio" target="_blank" class="btn btn-success">See site (Online) →</a>
                                                     <?php endif ?>
                                                     <?php if ($proyecto->urlcode) : ?>
-                                                        <a href="<?= $proyecto->urlcode ?>" onclick="clickProject(event)" data-project="<?= $proyecto->title ?>" data-type="codigo" target="_blank" class="btn btn-info m-align-right">Ver codigo →</a>
+                                                        <a href="<?= $proyecto->urlcode ?>" onclick="clickProject(event)" data-project="<?= $proyecto->title ?>" data-type="codigo" target="_blank" class="btn btn-info m-align-right">See code →</a>
                                                     <?php endif ?>
                                                 </div>
                                             </div>
@@ -301,14 +313,14 @@
                             <br>
                             <br>
 
-                            <h2 class="service-ttle pad-bt15">Mis datos.</h2>
+                            <h2 class="service-ttle pad-bt15">My Info</h2>
                             <hr class="bottom-line white-bg">
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="loction-info text-light white">
-                                <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Bogotá - Colombia</p>
-                                <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i><span id="correo"></span></p>
-                                <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i><span id="celular"></span></p>
+                                <p><em class="fa fa-map-marker fa-fw pull-left fa-2x"></em>Bogotá - Colombia</p>
+                                <p><em class="fa fa-envelope-o fa-fw pull-left fa-2x"></em><span id="correo"></span></p>
+                                <p><em class="fa fa-phone fa-fw pull-left fa-2x"></em><span id="celular"></span></p>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
@@ -328,7 +340,7 @@
                             </div>
                         </div>
 
-                        <h2 class="service-ttle pad-bt15 text-center white">Contáctame!!</h2>
+                        <h2 class="service-ttle pad-bt15 text-center white">Contact me!!</h2>
                         <div class="col-md-2"></div>
                         <div class="col-md-8 col-sm-6 col-xs-12">
                             <div class="contact-form">
@@ -347,28 +359,28 @@
                                 <form action="https://tomanota.000webhostapp.com/formHeroku/envioDatos.php" method="post" role="form" class="contactForm">
                                     <div class="col-md-6 padding-right-zero">
                                         <div class="form-group">
-                                            <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" data-rule="minlen:4" data-msg="Por favor ingresa al menos 4 caracteres" />
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Por favor ingresa al menos 4 caracteres" />
                                             <div class="validation"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" data-rule="email" data-msg="Por favor ingresa un email valido" />
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Por favor ingresa un email valido" />
                                             <div class="validation"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Titulo ó tema" data-rule="minlen:4" data-msg="Por favor ingresa al menos 8 caracteres para el titulo ó tema" />
+                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Title or topic" data-rule="minlen:4" data-msg="Por favor ingresa al menos 8 caracteres para el titulo ó tema" />
                                             <div class="validation"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribenos algo" placeholder="Preguntame lo que necesites"></textarea>
+                                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribenos algo" placeholder="Ask me wherever"></textarea>
                                             <div class="validation"></div>
                                         </div>
-                                        <button type="submit" class="btn btn-primary btn-block btn-submit" style="margin-bottom: 5%;">Enviar Mensaje</button>
+                                        <button type="submit" class="btn btn-primary btn-block btn-submit" style="margin-bottom: 5%;">Send Message</button>
                                     </div>
                                 </form>
                             </div>

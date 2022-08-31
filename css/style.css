@@ -116,12 +116,12 @@ h6 {
 
 /***********************************
 ************************************
-HEADER 
+HEADER
 ************************************
 ***********************************/
 
 .header {
-    background: url('https://cdn.pixabay.com/photo/2016/02/19/11/19/computer-1209641_960_720.jpg') no-repeat fixed;
+    background: url('../img//background.jpg') no-repeat fixed;
     background-size: cover;
     min-height: 650px;
     position: relative;
@@ -970,5 +970,5 @@ Responsive media queries
 }
 
 #celular::before {
-    content: '+57 3219216905';
+    content: '+57 3242525500,3219216905 ';
 }
