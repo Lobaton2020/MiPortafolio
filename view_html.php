@@ -120,7 +120,7 @@
                             I am a full stack developer, with a strong interest in web development, and I am always looking for new challenges.
                         </p>
                         <p class="sub-title pad-bt15 text-justify">
-                            I have around 3 years of experience in the field of web development in companies and building personal projects and I have worked with a variety of technologies.
+                            I have around 2 years of experience in the field of web development in companies and building personal projects and I have worked with a variety of technologies.
                             My focus is on Javascript, Nest JS, Angular JS, NodeJS, create API's, I have worked with the SCRUM methodology, and I have experience with the agile methodology.
                         </p>
                         <p class="sub-title pad-bt15 text-justify">
