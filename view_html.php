@@ -32,22 +32,28 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script>
         const url = `https://statistics-web-pages.herokuapp.com/tracking/${location.hostname}`;
-        function makeRequest(data){
-            fetch(url,{
+
+        function makeRequest(data) {
+            fetch(url, {
                 method: 'POST',
                 body: JSON.stringify(data),
-                headers:{
-                    "Content-Type":"application/json"
+                headers: {
+                    "Content-Type": "application/json"
                 }
             })
         }
+
         function clickProject(e) {
             const name = e.target.dataset.project;
             const type = e.target.dataset.type;
-            makeRequest({ interactions:[ { name: `${name}__${type}` } ] })
+            makeRequest({
+                interactions: [{
+                    name: `${name}__${type}`
+                }]
+            })
 
         }
-        document.addEventListener('DOMContentLoaded',()=> makeRequest({}))
+        document.addEventListener('DOMContentLoaded', () => makeRequest({}))
     </script>
 </head>
 
@@ -332,9 +338,14 @@
                                     <a href="https://github.com/Lobaton2020/" target="_blank" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; https://github.com/Lobaton2020/</a>
                                 </p>
                                 <p>
+                                    <a href="https://github.com/Lobaton2020/" target="_blank" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/R.png" alt=""></a>
+                                    <a href="https://gitlab.com/Lobaton2020/" target="_blank" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; https://gitlab.com/Lobaton2020/</a>
+                                </p>
+                                <p>
                                     <a href="https://www.linkedin.com/in/aflobaton/" target="_blank" style="color:white;text-decoration:underline"> <img style="width:50px;height:50px;" src="img/linkedin.png" alt=""></a>
                                     <a href="https://www.linkedin.com/in/aflobaton/" target="_blank" style="color:white;text-decoration:none">&nbsp;&nbsp;&nbsp; <span>https://www.linkedin.com/in/aflobaton/</span></a>
                                 </p>
+
                                 <p>
                                     <a href="Quiz/">.</a>
                                 </p>
