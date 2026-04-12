@@ -121,15 +121,16 @@
                         <h2 class=" service-title mt-3 pad-bt15">About me</h2>
                         <hr class="bottom-line">
                         <p class="sub-title pad-bt15 text-justify">
-                        <p class="sub-title pad-bt15 text-justify">
-                            I currently work as a <strong>Software Engineer at Mercado Libre</strong>, one of the largest tech companies in Latin America. I'm part of a team focused on infrastructure optimization, where I improve system performance, reduce operating costs, and develop new functionalities for internal platforms.
+                            My name is Andres. I am a web programmer from Colombia, currently living in Bogotá.
+                            I am coursing my first year of college in informatic eingeeniring, with a background in technical software programming.
+                            I am a full stack developer, with a strong interest in web development, and I am always looking for new challenges.
                         </p>
                         <p class="sub-title pad-bt15 text-justify">
-                            With over <strong>4 years of experience</strong> in web development, I specialize in building scalable backend solutions using <strong>Node.js, TypeScript, NestJS</strong>, and <strong>PostgreSQL</strong>. I've worked with <strong>microservices architectures</strong>, <strong>AWS</strong>, <strong>Docker</strong>, and <strong>SCRUM</strong> agile methodologies. My focus has always been on writing high-quality code, applying best practices like <strong>SOLID</strong>, and ensuring stable production deployments.
+                            I have around 2 years of experience in the field of web development in companies and building personal projects and I have worked with a variety of technologies.
+                            My focus is on Javascript, Nest JS, Angular JS, NodeJS, create API's, I have worked with the SCRUM methodology, and I have experience with the agile methodology.
                         </p>
                         <p class="sub-title pad-bt15 text-justify">
-                            If you have a technical challenge or need to build a product from scratch, I'd love to help. I'm always open to discussing new technologies and opportunities.
-                        </p>
+                            I love learning new technologies, I could help you to build a new product or a new service only contact me foe discouse what do you need.
                         </p>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12">
