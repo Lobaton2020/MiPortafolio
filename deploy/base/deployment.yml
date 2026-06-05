@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: portafolio
+spec:
+  replicas: 1
+  revisionHistoryLimit: 1
+  selector:
+    matchLabels:
+      app: portafolio
+  template:
+    metadata:
+      labels:
+        app: portafolio
+    spec:
+      containers:
+        - name: php-apache
+          image: aflobaton/portafolio:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - name: portfolio-data
+              mountPath: /var/www/html/database.json
+              subPath: database.json
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 30
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 5
+      volumes:
+        - name: portfolio-data
+          hostPath:
+            path: /mnt/data/portafolio
