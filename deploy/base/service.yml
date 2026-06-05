@@ -6,7 +6,7 @@ spec:
   selector:
     app: portafolio
   ports:
-    - port: 80
+    - port: 3004
       targetPort: 80
       protocol: TCP
   type: ClusterIP
