@@ -37,5 +37,4 @@ spec:
             periodSeconds: 5
       volumes:
         - name: portfolio-data
-          hostPath:
-            path: /mnt/data/portafolio
+          emptyDir: {}
