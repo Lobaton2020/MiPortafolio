@@ -9,4 +9,4 @@ spec:
     - port: 3004
       targetPort: 80
       protocol: TCP
-  type: ClusterIP
+  type: LoadBalancer
