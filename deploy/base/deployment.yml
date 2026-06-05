@@ -13,6 +13,16 @@ spec:
       labels:
         app: portafolio
     spec:
+      initContainers:
+        - name: init-db
+          image: busybox
+          command:
+            - sh
+            - -c
+            - "if [ ! -f /data/database.json ]; then echo '{}' > /data/database.json; fi"
+          volumeMounts:
+            - name: database
+              mountPath: /data
       containers:
         - name: php-apache
           image: aflobaton/portafolio:latest
@@ -20,7 +30,7 @@ spec:
           ports:
             - containerPort: 80
           volumeMounts:
-            - name: portfolio-data
+            - name: database
               mountPath: /var/www/html/database.json
               subPath: database.json
           livenessProbe:
@@ -36,5 +46,7 @@ spec:
             initialDelaySeconds: 5
             periodSeconds: 5
       volumes:
-        - name: portfolio-data
-          emptyDir: {}
+        - name: database
+          hostPath:
+            path: /mnt/data/portafolio
+            type: DirectoryOrCreate
